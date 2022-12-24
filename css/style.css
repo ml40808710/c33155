@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 150vh;
+    width: 100vw;
+    /*     display: flex;
+    flex-direction: column;
+    background-color: beige; */
+}
+
+/* encabezado inicio */
+
+header {
+    width: 100%;
+    height: 20%;
+    background-color: #d3c6cc;
+    display: flex;
+    background-image: url(../assets/images/backimg.jpg);
+    background-position: center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.logo {
+
+    width: 20%;
+    display: flex;
+    padding-left: 30px;
+    justify-content: start;
+    align-items: center;
+    
+
+}
+
+
+
+.navbar {
+
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+.navbar__link {
+    color: #fff;
+    padding: 10px 40px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    
+
+
+}
+
+.navbar__link:hover {
+    color: #fff;
+    background-color: #eecfc4;
+ 
+    
+}
+
+/* fin encabezado */
+
+/* inicio main */
+
+
+.main__index {
+    width:  100%;
+    height: 80% ;
+    background-color: #fff;
+
+   
+
+}
+
+
+
+.main__index__destacados {
+   
+    text-align: center;
+    font-size: 32px;
+    
+}
+
+.article__container{
+    display: flex;
+    flex-direction: wrap   ;
+    
+}
+
+
+.section__uno{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: start;
+
+    
+    
+    
+
+}
+
+.article__container__uno{
+    display: flex;
+
+}
+
+.article__container__text__uno{
+    margin-bottom: 170px;
+    margin-left: 40px;
+   
+    
+    
+
+}
+
+div h3{
+    font-size: 24px;
+    
+}
+
+.article__container__dos{
+    display: flex;
+    margin-top: 150px;
+
+   
+
+}
+
+.article__container__text__dos{
+    
+    margin-left: 40px;
+   
+
+}
+
+.section__dos{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.article__container__tres{
+    display: flex;
+}
+
+.article__container__text__tres{
+    margin-left: 40px;
+
+}
+
+.article__container__cuatro{
+
+    display: flex;
+    margin-top: 150px;
+
+}
+
+.article__container__text__cuatro{
+    margin-left: 40px;  
+    
+
+}
+
+
+
+
+
+footer {
+    height: 10vh;
+    background-color: #d3c6cc;
+
+
+}
